@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "627f15ff122b78fc63621461",
+    "name": "Adobo",
+    "count": 1391
+  },
+  {
+    "_id": "627f15ff122b78fc63634521",
+    "name": "Spaghetti",
+    "count": 1203
+  },
+  {
+    "_id": "627f15ff122b78fc63654241",
+    "name": "Bagoong Rice",
+    "count": 929
+  },
+  {
+    "_id": "627f15ff122b78fc62413262",
+    "name": "Burger",
+    "count": 456
+  },
+  {
+    "_id": "627f15ff122b78fc62413263",
+    "name": "Carbonara",
+    "count": 123
+  },
+  {
+    "_id": "627f15ff122b78fc62413264",
+    "name": "Palabok",
+    "count": 123
+  }
+]
