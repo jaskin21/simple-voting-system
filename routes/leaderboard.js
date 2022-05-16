@@ -9,7 +9,9 @@ router.get('/', async (req, res) => {
     const items = await Item.find().sort({ count: -1 });
     res.status(200).json(items);
   } catch (error) {
-    res.status(400).json({ message: error });
+    res.status(400).json({
+      message: err?.message ?? 'Something went wrong, please try again',
+    });
   }
 });
 
@@ -19,7 +21,9 @@ router.get('/top', async (req, res) => {
     const items = await Item.find().sort({ count: -1 }).limit(3);
     res.status(200).json(items);
   } catch (error) {
-    res.status(400).json({ message: error });
+    res.status(400).json({
+      message: err?.message ?? 'Something went wrong, please try again',
+    });
   }
 });
 

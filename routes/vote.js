@@ -14,7 +14,9 @@ router.post('/', async (req, res) => {
     );
     res.status(201).json(addVoteCount);
   } catch (error) {
-    res.status(400).json({ message: error });
+    res.status(400).json({
+      message: err?.message ?? 'Something went wrong, please try again',
+    });
   }
 });
 

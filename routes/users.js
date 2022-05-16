@@ -1,9 +1,11 @@
-import express from "express";
+import express from 'express';
 const router = express.Router();
 
 /* GET users listing. */
-router.get("/", function (req, res, next) {
-  res.json({ message: "I wish we had some information to give you ☹️" });
+router.get('/', function (req, res, next) {
+  res.status(400).json({
+    message: err?.message ?? 'Something went wrong, please try again',
+  });
 });
 
 export default router;
